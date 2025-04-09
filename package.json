@@ -1,0 +1,43 @@
+{
+  "name": "create-rn-web-template",
+  "version": "1.0.0",
+  "description": "React Native Web 项目模板生成器",
+  "main": "bin/cli.js",
+  "bin": {
+    "create-rn-web": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-web",
+    "template",
+    "cli",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "template/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/create-rn-web-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/create-rn-web-template/issues"
+  },
+  "homepage": "https://github.com/yourusername/create-rn-web-template#readme"
+} 
