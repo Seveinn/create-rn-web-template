@@ -1,26 +1,27 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
 
-const App = () => {
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AppNavigator from './navigation/AppNavigator';
+import ErrorBoundary from './components/common/ErrorBoundary';
+import Loading from './components/common/Loading';
+import env from './config/env';
+import { I18nProvider } from './i18n/I18nProvider';
+
+const App: React.FC = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>欢迎使用 React Native Web!</Text>
-    </View>
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <AppNavigator />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  text: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-});
 
 export default App; 

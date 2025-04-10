@@ -7,7 +7,7 @@
     "create-rn-web": "./bin/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests specified yet\" && exit 0",
     "prepublishOnly": "npm test"
   },
   "keywords": [
@@ -17,7 +17,7 @@
     "cli",
     "generator"
   ],
-  "author": "",
+  "author": "Seveinn",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -34,10 +34,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/create-rn-web-template.git"
+    "url": "git+https://github.com/Seveinn/create-rn-web-template.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/create-rn-web-template/issues"
+    "url": "https://github.com/Seveinn/create-rn-web-template/issues"
   },
-  "homepage": "https://github.com/yourusername/create-rn-web-template#readme"
+  "homepage": "https://github.com/Seveinn/create-rn-web-template#readme"
 } 
