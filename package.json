@@ -1,6 +1,6 @@
 {
   "name": "create-rn-web-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React Native Web 项目模板生成器",
   "main": "bin/cli.js",
   "bin": {
